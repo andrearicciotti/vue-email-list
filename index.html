@@ -10,6 +10,12 @@
 
     <div class="container" id="app">
 
+        <h1>I tuoi contatti:</h1>
+
+        <ul>
+            <li v-if="mails.length === 10" v-for="(mail) in mails">{{ mail }}</li>
+        </ul>
+
     </div>
 
     <!-- axios js -->
