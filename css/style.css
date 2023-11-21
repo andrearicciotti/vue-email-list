@@ -1,0 +1,18 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* CUSTOM STYLES */
+.container {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
